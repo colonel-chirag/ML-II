@@ -20,3 +20,25 @@ techniques used in machine learning.
 model performance.
 5. What do you understand by fine tuning a ML model? Discuss about Grid Search &amp; Randomized search
 method in brief.
+6. What do you understand by ensemble learning? Also discuss concept of bagging &amp; boosting in
+detail.
+
+
+Unit - 3
+
+1. Explain regression &amp; classification problem using suitable example.
+2. Explain Linear regression using suitable diagram.
+3. Discuss Gradient Descent Algorithm in detail.'
+4. Discuss Multiple linear regression (MLR) using example.
+5. Explain Polynomial Regression in brief and discuss how it is different from multiple
+linear regression.
+
+
+Unit - 4
+
+
+
+Unit - 5
+
+1. What do you understand by clustering in ML? Discuss circumstances, when it is
+applicable to use for ML model development.
