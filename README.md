@@ -42,3 +42,9 @@ Unit - 5
 
 1. What do you understand by clustering in ML? Discuss circumstances, when it is
 applicable to use for ML model development.
+2. Explain working of K-Means Clustering using appropriate diagram.
+3. Explain working of Decision Tree based machine learning algorithm using suitable
+example.
+4. Discuss process of Random Forest algorithm in detail.
+5. Explain Support Vector Machine (SVM) algorithm with neat &amp;amp; clean diagram.
+
