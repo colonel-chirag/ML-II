@@ -48,3 +48,5 @@ example.
 4. Discuss process of Random Forest algorithm in detail.
 5. Explain Support Vector Machine (SVM) algorithm with neat &amp;amp; clean diagram.
 
+Solutions https://drive.google.com/file/u/0/d/1Ms5AazjGox7e4Hxx3HfJ6efqtWEj3MCm/view?usp=drive_web
+
