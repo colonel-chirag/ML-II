@@ -1,5 +1,10 @@
 # ML-II
 
+syllabus
+
+![image](https://user-images.githubusercontent.com/59536110/180618612-c8bc0c75-33a5-43b8-adad-f9ce9bcbdf47.png)
+
+
 Unit - 1
 
 1. Explain machine learning in brief. Discuss application &amp; limitations of machine learning.
