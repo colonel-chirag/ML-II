@@ -1,10 +1,13 @@
+
 # ML-II
 
 syllabus
 
 ![image](https://user-images.githubusercontent.com/59536110/180618612-c8bc0c75-33a5-43b8-adad-f9ce9bcbdf47.png)
 
+Sessional Question Papers-
 
+![IMG20220727114322](https://user-images.githubusercontent.com/93399136/181174539-ffba08c8-7663-4cb4-95a7-07218c979f04.jpg)
 Unit - 1
 
 1. Explain machine learning in brief. Discuss application &amp; limitations of machine learning.
