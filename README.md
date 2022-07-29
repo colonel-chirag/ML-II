@@ -43,7 +43,14 @@ linear regression.
 
 
 Unit - 4
-
+1. Why visualization is used in machine learning? Discuss its importance in data exploration
+phase of ML.
+2. What do you understand by “Curse of Dimensionality”? Does proper Feature Selection
+help in avoiding this? Please discuss in brief.
+3. Explain the term Dimensionality Reduction in brief. Also discuss the working of
+Principal
+4. Component Analysis (PCA) algorithm.
+5. Explain K Nearest Neighbors (KNN) and its process in detail using suitable diagram?
 
 
 Unit - 5
