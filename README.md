@@ -64,20 +64,20 @@ Note: if b == m, then mini batch gradient descent will behave similarly to batch
 Algorithm for batch gradient descent :
 Let hθ(x) be the hypothesis for linear regression. Then, the cost function is given by:
 Let Σ represents the sum of all training examples from i=1 to m.
-
+~~~
 Jtrain(θ) = (1/2m) Σ( hθ(x(i))  - y(i))2
 
 Repeat {
  θj = θj – (learning rate/m) * Σ( hθ(x(i))  - y(i))xj(i)
     For every j =0 …n 
 }
-
+~~~
 Where xj(i) Represents the jth feature of the ith training example. So if m is very large(e.g. 5 million training samples), then it takes hours or even days to converge to the global minimum.That’s why for large datasets, it is not recommended to use batch gradient descent as it slows down the learning.
 
 Algorithm for stochastic gradient descent:
 1) Randomly shuffle the data set so that the parameters can be trained evenly for each type of data.
 2) As mentioned above, it takes into consideration one example per iteration.
-
+~~~
 Hence,
 Let (x(i),y(i)) be the training example
 Cost(θ, (x(i),y(i))) = (1/2) Σ( hθ(x(i))  - y(i))2
@@ -93,13 +93,13 @@ For i=1 to m{
 
                 } 
 }
-
+~~~
 Algorithm for mini batch gradient descent:
 Say b be the no of examples in one batch, where b < m.
 Assume b = 10, m = 100;
 
 Note: However we can adjust the batch size. It is generally kept as power of 2. The reason behind it is because some hardware such as GPUs achieve better run time with common batch sizes such as power of 2.
-
+~~~
 Repeat {
  For i=1,11, 21,…..,91
 
@@ -109,7 +109,7 @@ Repeat {
         For every j =0 …n
 
 }
-
+~~~
 8.> Explain working of Decision Tree based machine learning algorithm using suitable example.
 
 9.> Explain Support Vector Machine (SVM) algorithm with neat &amp;amp; clean diagram.
