@@ -33,7 +33,7 @@
 
 9.> Explain Support Vector Machine (SVM) algorithm with neat &amp;amp; clean diagram.
 
-10.> Different- different value handling approaches.
+10.> Different- different Missing value handling approaches.
 
 syllabus
 
