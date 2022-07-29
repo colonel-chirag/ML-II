@@ -2,17 +2,27 @@
 # ML-II
 
 1.> ML PROCESS FLOW W PROCESS DIAGRAM 
+
 2.> Bias - Variance Trade-off .
+
 3.> Overfitting vs Underfitting .
+
 4.> KNN
+
 5.> PCA / Dimensionality Redction .
+
 6.> polynomial regression / Multiple linear regression 
+
 ----------------
 
 1.> CV / CV techniques.
+
 2.> Regression vs Classification.
+
 3.> Curse of dimensionality .
+
 4.> AL/ML/DL
+
 5.. 
 
 syllabus
