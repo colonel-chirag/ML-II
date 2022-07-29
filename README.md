@@ -17,7 +17,55 @@
 
 1.> CV / CV techniques.
 
+There are some common methods that are used for cross-validation. These methods are given below:
+1.Validation Set Approach
+In this we divide input data into training set and test or validation set in the validation set approach. Both the subsets are given 50% of the dataset.But it has one of the big disadvantages that we are just using a 50% dataset to train our model, so the model may miss out to capture important information of the dataset. It also tends to give the underfitted model
+
+2.Leave-P-out cross-validation
+It means, if there are total n datapoints in the original input dataset, then n-p data points will be used as the training dataset and the p data points as the validation set. This complete process is repeated for all the samples, and the average error is calculated to know the effectiveness of the model.There is a disadvantage of this technique; that is, it can be computationally difficult for the large p.
+
+3.Leave one out cross-validation.
+It means, in this approach, for each learning set, only one datapoint is reserved, and the remaining dataset is used to train the model. This process repeats for each datapoint. Hence for n samples, we get n different training set and n test set. 
+
+4.K-Fold Cross-Validation
+In this inpury dataset is divided into K groups of samples of equal sizes. For each learning set, the prediction function uses k-1 folds, and the rest of the folds are used for the test set.And the output is less biased than other methods.
+The steps for k-fold cross-validation are:
+Split the input dataset into K groups
+For each group:
+Take one group as the reserve or test data set.
+Use remaining groups as the training dataset
+Fit the model on the training set and evaluate the performance of the model using the test set.
+Consider the below diagram:
+
+![84f4137b-62f5-448e-8898-0930971c9267](https://user-images.githubusercontent.com/93399136/181699813-12a21801-3675-41ca-a3b6-0755cf1d9d4f.jpg)
+
+
+5.Stratified k-fold cross-validation
+This approach works on stratification concept, it is a process of rearranging the data to ensure that each fold or group is a good representative of the complete dataset. To deal with the bias and variance, it is one of the best approaches.
+
+6.Holdout Method
+In this method, we need to remove a subset of the training data and use it to get prediction results by training it on the rest part of the dataset.This method is the simplest cross-validation technique among all.Although this approach is simple to perform, it still faces the issue of high variance, and it also produces misleading results sometimes.
+
 2.> Regression vs Classification.
+
+Regression Algorithm	vs Classification Algorithm
+
+1.In Regression, the output variable must be of continuous nature or real value.	
+
+In Classification, the output variable must be a discrete value.
+
+2.The task of the regression algorithm is to map the input value (x) with the continuous output variable(y).	
+The task of the classification algorithm is to map the input value(x) with the discrete output variable(y).
+
+3.Regression Algorithms are used with continuous data.
+	Classification Algorithms are used with discrete data.
+
+4.In Regression, we try to find the best fit line, which can predict the output more accurately.	
+In Classification, we try to find the decision boundary, which can divide the dataset into different classes.
+
+5.Regression algorithms can be used to solve the regression problems such as Weather Prediction, House price prediction, etc.	Classification Algorithms can be used to solve classification problems such as Identification of spam emails, Speech Recognition, Identification of cancer cells, etc.
+
+6.The regression Algorithm can be further divided into Linear and Non-linear Regression.	The Classification algorithms can be divided into Binary Classifier and Multi-class Classifier.
 
 3.> Curse of dimensionality .
 Curse of Dimensionality refers to a set of problems that arise when working with high-dimensional data. The dimension of a dataset corresponds to the number of attributes/features that exist in a dataset. A dataset with a large number of attributes, generally of the order of a hundred or more, is referred to as high dimensional data. Some of the difficulties that come with high dimensional data manifest during analyzing or visualizing the data to identify patterns, and some manifest while training machine learning models. The difficulties related to training machine learning models due to high dimensional data are referred to as the ‘Curse of Dimensionality’.
@@ -35,13 +83,67 @@ In Machine Learning, a marginal increase in dimensionality also requires a large
 How To Combat The CoD?
 Combating COD is not such a big deal until we have dimensionality reduction. Dimensionality Reduction is the process of reducing the number of input variables in a dataset, also known as the process of converting the high-dimensional variables into lower-dimensional variables without changing their attributes of the same.
 
-
-
 4.> AL/ML/DL
+
+![a9adc9ea-c20d-49ef-b64e-ab0e7f83546a](https://user-images.githubusercontent.com/93399136/181699910-8e1cdf85-8835-4c14-bbbc-ff5078e14c4f.jpg)
 
 5.> Explain machine learning in brief. Discuss application & limitations of machine learning.
 
+Machine learning (ML) is a type of artificial intelligence (AI) that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so. Machine learning algorithms use historical data as input to predict new output values.
+Applications:
+Predictions while CommutingVideos Surveillance
+Email Spam and Malware Filtering
+Search Engine Result Refining
+Product Recommendations
+Limitations:
+ML needs enough time to let the algorithms learn and develop enough to fulfill their purpose with a considerable amount of accuracy and relevancy. It also needs massive resources to function. This can mean additional requirements of computer power for you.
+
+
+Machine Learning requires massive data sets to train on, and these should be inclusive/unbiased, and of good quality. There can also be times where they must wait for new data to be generated.
+
+
+Another major challenge is the ability to accurately interpret results generated by the algorithms. You must also carefully choose the algorithms for your purpose.
+
 6.> Discuss various types of machine learning algorithm.
+
+Machine Learning algorithms are the programs that can learn the hidden patterns from the data, predict the output, and improve the performance from experiences on their own. Different algorithms can be used in machine learning for different tasks, such as simple linear regression that can be used for prediction problems like stock market prediction, and the KNN algorithm can be used for classification problems.
+
+In this topic, we will see the overview of some popular and most commonly used machine learning
+algorithms along with their use cases and categories.
+
+Types of Machine Learning Algorithms
+Machine Learning Algorithm can be broadly classified into three types:
+
+1.Supervised Learning Algorithms.
+2.Unsupervised Learning Algorithms.
+3.Reinforcement Learning algorithm.
+
+The below diagram illustrates the different ML algorithm, along with the categories:
+
+![machine-learning-algorithms](https://user-images.githubusercontent.com/93399136/181700699-5b9e6ad6-760d-4dfc-ac81-3f61f68e3687.png)
+
+Machine Learning Algorithms
+1) Supervised Learning Algorithm
+Supervised learning is a type of Machine learning in which the machine needs external supervision to learn. The supervised learning models are trained using the labeled dataset. Once the training and processing are done, the model is tested by providing a sample test data to check whether it predicts the correct output.
+
+The goal of supervised learning is to map input data with the output data. Supervised learning is based on supervision, and it is the same as when a student learns things in the teacher's supervision. The example of supervised learning is spam filtering.
+
+Supervised learning can be divided further into two categories of problem:
+
+Classification
+Regression
+Examples of some popular supervised learning algorithms are Simple Linear regression, Decision Tree, Logistic Regression, KNN algorithm, etc. Read more..
+
+2) Unsupervised Learning Algorithm
+It is a type of machine learning in which the machine does not need any external supervision to learn from the data, hence called unsupervised learning. The unsupervised models can be trained using the unlabelled dataset that is not classified, nor categorized, and the algorithm needs to act on that data without any supervision. In unsupervised learning, the model doesn't have a predefined output, and it tries to find useful insights from the huge amount of data. These are used to solve the Association and Clustering problems. Hence further, it can be classified into two types:
+
+Clustering
+Association
+Examples of some Unsupervised learning algorithms are K-means Clustering, Apriori Algorithm, Eclat, etc. Read more..
+
+3) Reinforcement Learning
+In Reinforcement learning, an agent interacts with its environment by producing actions, and learn with the help of feedback. The feedback is given to the agent in the form of rewards, such as for each good action, he gets a positive reward, and for each bad action, he gets a negative reward. There is no supervision provided to the agent. Q-Learning algorithm is used in reinforcement learning. Read more…
+
 
 7.> Discuss Gradient Descent Algorithm in detail.
 
