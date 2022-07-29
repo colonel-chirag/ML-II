@@ -209,6 +209,17 @@ SVM can be of two types:
 
 10.> Different- different value handling approaches.
 
+There are many methods available to treat the missing data in the literature, textbook and standard courses. However, these methods consist of some drawbacks. When using the data mining process, one need to be careful to avoid bias or overestimate variability; these methods don't perform well.
+
+Case Deletion
+
+There are two types of case deletion methods. The first one is a list deletion (also known as complete case analysis) and second method is the pair deletion. The case deletion methods are used to delete the missing cases from our dataset on an analysis-by-analysis basis.
+
+![missing-data-conundrum-exploration-and-imputation-techniques](https://user-images.githubusercontent.com/93399136/181777330-f624541b-02e1-4fdf-9a19-0755de589861.png)
+
+
+
+Case Deletion
 syllabus
 
 ![image](https://user-images.githubusercontent.com/59536110/180618612-c8bc0c75-33a5-43b8-adad-f9ce9bcbdf47.png)
