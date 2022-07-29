@@ -44,6 +44,7 @@ Combating COD is not such a big deal until we have dimensionality reduction. Dim
 6.> Discuss various types of machine learning algorithm.
 
 7.> Discuss Gradient Descent Algorithm in detail.
+
 Gradient Descent is an optimization algorithm used for minimizing the cost function in various machine learning algorithms. It is basically used for updating the parameters of the learning model.
 
 Types of gradient Descent:
@@ -92,7 +93,7 @@ For i=1 to m{
 
                 } 
 }
- 
+
 Algorithm for mini batch gradient descent:
 Say b be the no of examples in one batch, where b < m.
 Assume b = 10, m = 100;
