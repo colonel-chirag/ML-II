@@ -68,7 +68,42 @@ C) Mini Batch gradient descent: This is a type of gradient descent which works f
 
 8.> Explain working of Decision Tree based machine learning algorithm using suitable example.
 
+-Decision Tree is a Supervised learning technique that can be used for both classification and Regression problems, but mostly it is preferred for solving Classification problems. It is a tree-structured classifier, where internal nodes represent the features of a dataset, branches represent the decision rules and each leaf node represents the outcome.
+
+-In a Decision tree, there are two nodes, which are the Decision Node and Leaf Node. Decision nodes are used to make any decision and have multiple branches, whereas Leaf nodes are the output of those decisions and do not contain any further branches.
+
+-The decisions or the test are performed on the basis of features of the given dataset.
+
+-It is a graphical representation for getting all the possible solutions to a problem/decision based on given conditions.
+
+-It is called a decision tree because, similar to a tree, it starts with the root node, which expands on further branches and constructs a tree-like structure.
+
+-In order to build a tree, we use the CART algorithm, which stands for Classification and Regression Tree algorithm.
+
+-A decision tree simply asks a question, and based on the answer (Yes/No), it further split the tree into subtrees.
+
+-Below diagram explains the general structure of a decision tree:
+
+
+![decision-tree-classification-algorithm](https://user-images.githubusercontent.com/93399136/181695258-9f551bdd-c30c-4717-974a-950c83e50477.png)
+
 9.> Explain Support Vector Machine (SVM) algorithm with neat &amp;amp; clean diagram.
+
+-SVM is one of the most popular Supervised Learning algorithms, which is used for Classification as well as Regression problems. However, primarily, it is used for Classification problems in Machine Learning. 
+
+-The goal of the SVM algorithm is to create the best line or decision boundary that can segregate n-dimensional space into classes so that we can easily put the new data point in the correct category in the future. This best decision boundary is called a hyperplane.
+
+-Consider the below diagram in which there are two different categories that are classified using a decision boundary or hyperplane:
+
+![support-vector-machine-algorithm](https://user-images.githubusercontent.com/93399136/181695969-57f8fac3-2dbd-4a08-8f5c-2f1bc74afbf6.png)
+
+-SVM algorithm can be used for Face detection, image classification, text categorization, etc.
+
+SVM can be of two types:
+
+-Linear SVM: Linear SVM is used for linearly separable data, which means if a dataset can be classified into two classes by using a single straight line, then such data is termed as linearly separable data, and classifier is used called as Linear SVM classifier.
+
+-Non-linear SVM: Non-Linear SVM is used for non-linearly separated data, which means if a dataset cannot be classified by using a straight line, then such data is termed as non-linear data and classifier used is called as Non-linear SVM classifier.
 
 10.> Different- different value handling approaches.
 
