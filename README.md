@@ -23,7 +23,15 @@
 
 4.> AL/ML/DL
 
-5.. 
+5.> Explain machine learning in brief. Discuss application & limitations of machine learning.
+
+6.> Discuss various types of machine learning algorithm.
+
+7.> Discuss Gradient Descent Algorithm in detail.
+
+8.> Explain working of Decision Tree based machine learning algorithm using suitable example.
+
+9.> Explain Support Vector Machine (SVM) algorithm with neat &amp;amp; clean diagram.
 
 syllabus
 
@@ -60,7 +68,7 @@ Unit - 3
 
 1. Explain regression &amp; classification problem using suitable example.
 2. Explain Linear regression using suitable diagram.
-3. Discuss Gradient Descent Algorithm in detail.'
+3. Discuss Gradient Descent Algorithm in detail.
 4. Discuss Multiple linear regression (MLR) using example.
 5. Explain Polynomial Regression in brief and discuss how it is different from multiple
 linear regression.
