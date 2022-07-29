@@ -33,6 +33,8 @@
 
 9.> Explain Support Vector Machine (SVM) algorithm with neat &amp;amp; clean diagram.
 
+10.> Different- different value handling approaches.
+
 syllabus
 
 ![image](https://user-images.githubusercontent.com/59536110/180618612-c8bc0c75-33a5-43b8-adad-f9ce9bcbdf47.png)
