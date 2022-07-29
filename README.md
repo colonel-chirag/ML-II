@@ -1,6 +1,20 @@
 
 # ML-II
 
+1.> ML PROCESS FLOW W PROCESS DIAGRAM 
+2.> Bias - Variance Trade-off .
+3.> Overfitting vs Underfitting .
+4.> KNN
+5.> PCA / Dimensionality Redction .
+6.> polynomial regression / Multiple linear regression 
+----------------
+
+1.> CV / CV techniques.
+2.> Regression vs Classification.
+3.> Curse of dimensionality .
+4.> AL/ML/DL
+5.. 
+
 syllabus
 
 ![image](https://user-images.githubusercontent.com/59536110/180618612-c8bc0c75-33a5-43b8-adad-f9ce9bcbdf47.png)
@@ -43,14 +57,7 @@ linear regression.
 
 
 Unit - 4
-1. Why visualization is used in machine learning? Discuss its importance in data exploration
-phase of ML.
-2. What do you understand by “Curse of Dimensionality”? Does proper Feature Selection
-help in avoiding this? Please discuss in brief.
-3. Explain the term Dimensionality Reduction in brief. Also discuss the working of
-Principal
-4. Component Analysis (PCA) algorithm.
-5. Explain K Nearest Neighbors (KNN) and its process in detail using suitable diagram?
+
 
 
 Unit - 5
