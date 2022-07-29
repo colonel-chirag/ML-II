@@ -20,6 +20,22 @@
 2.> Regression vs Classification.
 
 3.> Curse of dimensionality .
+Curse of Dimensionality refers to a set of problems that arise when working with high-dimensional data. The dimension of a dataset corresponds to the number of attributes/features that exist in a dataset. A dataset with a large number of attributes, generally of the order of a hundred or more, is referred to as high dimensional data. Some of the difficulties that come with high dimensional data manifest during analyzing or visualizing the data to identify patterns, and some manifest while training machine learning models. The difficulties related to training machine learning models due to high dimensional data are referred to as the ‘Curse of Dimensionality’.
+Domains of the curse of dimensionality are listed below :
+
+Anomaly Detection
+Anomaly detection is used for finding unforeseen items or events in the dataset. In high-dimensional data anomalies often show a remarkable number of attributes which are irrelevant in nature; certain objects occur more frequently in neighbour lists than others.
+
+Combinatorics
+Whenever, there is an increase in the number of possible input combinations it fuels the complexity to increase rapidly, and the curse of dimensionality occurs.
+
+Machine Learning
+In Machine Learning, a marginal increase in dimensionality also requires a large increase in the volume in the data in order to maintain the same level of performance. The curse of dimensionality is the by-product of a phenomenon which appears with high-dimensional data.
+
+How To Combat The CoD?
+Combating COD is not such a big deal until we have dimensionality reduction. Dimensionality Reduction is the process of reducing the number of input variables in a dataset, also known as the process of converting the high-dimensional variables into lower-dimensional variables without changing their attributes of the same.
+
+
 
 4.> AL/ML/DL
 
@@ -33,7 +49,7 @@
 
 9.> Explain Support Vector Machine (SVM) algorithm with neat &amp;amp; clean diagram.
 
-10.> Different- different Missing value handling approaches.
+10.> Different- different value handling approaches.
 
 syllabus
 
