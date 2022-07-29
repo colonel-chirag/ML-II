@@ -45,7 +45,18 @@ Combating COD is not such a big deal until we have dimensionality reduction. Dim
 
 7.> Discuss Gradient Descent Algorithm in detail.
 
-Gradient Descent is an optimization algorithm used for minimizing the cost function in various machine learning algorithms. It is basically used for updating the parameters of the learning model.
+Gradient Descent is an optimization algorithm used for minimizing the cost function in various machine learning algorithms. It helps in finding local minimum and maximum. 
+
+The cost function is defined as the measurement of difference or error between actual values and expected values at the current position and present in the form of a single real number. 
+
+The best way to define the local minimum or local maximum of a function using gradient descent is as follows:
+
+-If we move towards a negative gradient or away from the gradient of the function at the current point, it will give the local minimum of that function.
+
+-Whenever we move towards a positive gradient or towards the gradient of the function at the current point, we will get the local maximum of that function.
+
+![gradient-descent-in-machine-learning1](https://user-images.githubusercontent.com/93399136/181694353-091b01dd-2d86-4ccb-af33-e699d1fc2613.png)
+
 
 Types of gradient Descent:
 
@@ -55,61 +66,6 @@ B) Stochastic Gradient Descent: This is a type of gradient descent which process
 
 C) Mini Batch gradient descent: This is a type of gradient descent which works faster than both batch gradient descent and stochastic gradient descent. Here b examples where b<m are processed per iteration. So even if the number of training examples is large, it is processed in batches of b training examples in one go. Thus, it works for larger training examples and that too with lesser number of iterations.
 
-Variables used:
-Let m be the number of training examples.
-Let n be the number of features.
-
-Note: if b == m, then mini batch gradient descent will behave similarly to batch gradient descent.
-
-Algorithm for batch gradient descent :
-Let hθ(x) be the hypothesis for linear regression. Then, the cost function is given by:
-Let Σ represents the sum of all training examples from i=1 to m.
-~~~
-Jtrain(θ) = (1/2m) Σ( hθ(x(i))  - y(i))2
-
-Repeat {
- θj = θj – (learning rate/m) * Σ( hθ(x(i))  - y(i))xj(i)
-    For every j =0 …n 
-}
-~~~
-Where xj(i) Represents the jth feature of the ith training example. So if m is very large(e.g. 5 million training samples), then it takes hours or even days to converge to the global minimum.That’s why for large datasets, it is not recommended to use batch gradient descent as it slows down the learning.
-
-Algorithm for stochastic gradient descent:
-1) Randomly shuffle the data set so that the parameters can be trained evenly for each type of data.
-2) As mentioned above, it takes into consideration one example per iteration.
-~~~
-Hence,
-Let (x(i),y(i)) be the training example
-Cost(θ, (x(i),y(i))) = (1/2) Σ( hθ(x(i))  - y(i))2
-
-Jtrain(θ) = (1/m) Σ Cost(θ, (x(i),y(i)))
-
-Repeat {
-
-For i=1 to m{
-
-         θj = θj – (learning rate) * Σ( hθ(x(i))  - y(i))xj(i)
-        For every j =0 …n
-
-                } 
-}
-~~~
-Algorithm for mini batch gradient descent:
-Say b be the no of examples in one batch, where b < m.
-Assume b = 10, m = 100;
-
-Note: However we can adjust the batch size. It is generally kept as power of 2. The reason behind it is because some hardware such as GPUs achieve better run time with common batch sizes such as power of 2.
-~~~
-Repeat {
- For i=1,11, 21,…..,91
-
-    Let Σ be the summation from i to i+9 represented by k. 
-
-    θj = θj – (learning rate/size of (b) ) * Σ( hθ(x(k))  - y(k))xj(k)
-        For every j =0 …n
-
-}
-~~~
 8.> Explain working of Decision Tree based machine learning algorithm using suitable example.
 
 9.> Explain Support Vector Machine (SVM) algorithm with neat &amp;amp; clean diagram.
