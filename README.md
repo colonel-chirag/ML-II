@@ -284,3 +284,8 @@ example.
 
 Solutions https://drive.google.com/file/u/0/d/1Ms5AazjGox7e4Hxx3HfJ6efqtWEj3MCm/view?usp=drive_web
 
+
+Semester Exam 2022-
+![IMG20220730132659](https://user-images.githubusercontent.com/93399136/181905575-9be60a1f-2c86-4115-811d-8c9df8350f66.jpg)
+![IMG20220730132707](https://user-images.githubusercontent.com/93399136/181905580-beba7c49-1264-4f4e-a63b-3b38cd80390a.jpg)
+
